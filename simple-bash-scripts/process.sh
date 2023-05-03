@@ -11,5 +11,5 @@ echo "Hello $USER"
 echo "Hey i am $USER and will be telling you about the current processes"
 echo "Running processes List"
 echo "Azure group list..."
-azure group list
+az group list
 ps
