@@ -1,3 +1,5 @@
+$MSG = "start..."
+Write-Host $MSG 
 Write-Host $Pwd
 Write-Host $UserName
 Write-Host $ResourceGroupName
