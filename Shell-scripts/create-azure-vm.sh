@@ -1,0 +1,1 @@
+az vm create --resource-group $resourcegroup --name $vmname --image Win2022AzureEditionCore  --public-ip-sku Standard --admin-username $username
