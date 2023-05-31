@@ -1,4 +1,5 @@
 $MSG = "start..."
+echo "hello"
 Write-Host $MSG 
 Write-Host $Pwd
 Write-Host $UserName
