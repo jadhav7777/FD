@@ -1,1 +1,1 @@
-aws eks create-cluster --name demo-cluster --kubernetes-version 1.27 --role-arn arn:aws:iam::898334718399:role/eksrole --resources-vpc-config subnetIds=subnet-c23fbd8f,subnet-71e4e318,subnet-f7c1868c,securityGroupIds=sg-47e75b2f,sg-8db408e5
+aws eks create-cluster --name $clusterName --kubernetes-version $kubernetes_version --role-arn $role_arn --resources-vpc-config subnetIds=subnet-c23fbd8f,subnet-71e4e318,subnet-f7c1868c,securityGroupIds=sg-47e75b2f,sg-8db408e5
