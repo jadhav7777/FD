@@ -1,6 +1,6 @@
 $ResourceGroupName = "Abhishek_REsource_Group"  
 $location = "EastUS"  
-$VMName = "Nginx-VM"
+$VMName = "Azure-VM"
 $UserName = "FDAdmin"
 $pwd = "FD@123azure"
 $password = ConvertTo-SecureString $pwd -AsPlainText -Force
