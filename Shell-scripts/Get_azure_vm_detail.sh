@@ -1,0 +1,1 @@
+az vm show --resource-group $resourcegroup --name $vmname
