@@ -3,6 +3,8 @@ echo "hello"
 Write-Host $MSG 
 Write-Host $Pwd
 Write-Host $UserName
+# Write-Host $ResourceGroupName
+$ResourceGroupName = Get-Item $evn:ResourceGroupName
 Write-Host $ResourceGroupName
 $password = ConvertTo-SecureString $Pwd -AsPlainText -Force
 $CredVM = New-Object System.Management.Automation.PSCredential ('$UserName', $password)
