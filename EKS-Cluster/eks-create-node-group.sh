@@ -1,1 +1,1 @@
-aws eks create-nodegroup --cluster-name demo-cluster --nodegroup-name eks-demo-group --node-role  arn:aws:iam::898334718399:role/eksnoderole  --ami-type  AL2_x86_64 --instance-types t3.medium --subnets subnet-c23fbd8f,subnet-71e4e318,subnet-f7c1868c --disk-size 20 
+aws eks create-nodegroup --cluster-name demo-cluster --nodegroup-name eks-demo-group --node-role  arn:aws:iam::898334718399:role/eksnoderole  --ami-type  AL2_x86_64 --instance-types t3.medium --subnets subnet-c23fbd8f --disk-size 20 
