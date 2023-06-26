@@ -1,0 +1,1 @@
+"Mysql_Connection_String_csv_file_not_secured: ""false##jdbc:sqlserver://localhost;databaseName=DbName;user=MyUserName;password=*****;"" "," ""Queue_Conn_String_csv_file_secured"":""true## DefaultEndpointsProtocol=https;AccountName=storageaccnt2508;AccountKey=z4zvWOWMVweXr"""
