@@ -5,7 +5,7 @@
 	"keyValue": "FD-26_6_12_56"
 },
 {
-	"keyNamea": "Password",
+	"keyName": "Password",
 	"secured": "true",
 	"keyValue": "jdbc:sqlserver://localhost;databaseName=DbName;user=MyUserName;password=*****;"
 },
