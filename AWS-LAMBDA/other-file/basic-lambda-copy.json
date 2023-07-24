@@ -10,7 +10,7 @@
 	"keyValue": "jdbc:sqlserver://localhost;databaseName=DbName;user=MyUserName;password=*****;"
 },
 {
-	"keyName": "LAMBDAfalse",
+	"keyName": "",
 	"secured": "false",
 	"keyValue": "FD Plugin false."
 }
