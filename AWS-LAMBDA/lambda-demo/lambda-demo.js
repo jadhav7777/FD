@@ -20,7 +20,6 @@ exports.handler = async (event) => {
       };
       const data = await kms.decrypt(req).promise();
       decrypted = data.Plaintext.toString('ascii');
-      console.log('Decrypted value of password:',decrypted );
     } catch (err) {
       console.log('Decrypt error:', err);
       throw err;
