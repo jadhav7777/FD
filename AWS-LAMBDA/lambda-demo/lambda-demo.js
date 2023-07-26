@@ -4,6 +4,7 @@ AWS.config.update({ region: 'us-east-1' });
 const functionName = process.env.AWS_LAMBDA_FUNCTION_NAME;
 const encrypted = process.env['Password'];
 const userName = process.env['UserName'];
+const description = process.env['Description'];
 let decrypted;
 
 
@@ -28,7 +29,8 @@ exports.handler = async (event) => {
   processEvent(event);
    const response = {
         UserName: userName,
-        Password: decrypted
+        Password: decrypted,
+        Description: description
     };
     return response;
 };
