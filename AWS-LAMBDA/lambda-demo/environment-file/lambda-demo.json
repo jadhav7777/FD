@@ -1,8 +1,4 @@
-[ {
-	"keyName": "Mysql_Connection_String",
-	"secured": "true",
-	"keyValue": "jdbc:sqlserver://localhost;databaseName=DbName;user=MyUserName;password=*****;"
-},
+[
 {
 	"keyName": "UserName",
 	"secured": "false",
@@ -11,11 +7,6 @@
 {
 	"keyName": "Password",
 	"secured": "true",
-	"keyValue": "Welcome@1"
-},
-{
-	"keyName": "Description",
-	"secured": "false",
-	"keyValue": "AWS Lambda demo."
+	"keyValue": "${{PASSWORD}}"
 }
 ]
