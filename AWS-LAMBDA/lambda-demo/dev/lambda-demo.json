@@ -12,10 +12,5 @@
 	"keyName": "Password",
 	"secured": "true",
 	"keyValue": "Welcome@1"
-},
-{
-	"keyName": "Description",
-	"secured": "false",
-	"keyValue": "AWS Lambda demo."
 }
 ]
