@@ -7,6 +7,6 @@
 {
 	"keyName": "Password",
 	"secured": "true",
-	"keyValue": "${{DB_DEV_PASSWORD}}"
+	"keyValue": "${{DB_PASSWORD_VALUE}}"
 }
 ]
