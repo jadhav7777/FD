@@ -1,1 +1,0 @@
-aws eks delete-cluster --name demo-cluster
