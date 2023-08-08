@@ -1,3 +1,5 @@
+
+
 const AWS = require('aws-sdk');
 AWS.config.update({ region: 'us-east-1' });
 
@@ -40,5 +42,13 @@ exports.handler = async (event) => {
         Password: password,
         ConnectionString: connectionString
     };
-    return response;
+
+  return  {
+  "isBase64Encoded": false,
+  "statusCode": 200,
+  "body": JSON.stringify(response),
+  "headers": {
+    "content-type": "application/json"
+  }
+};
 };
